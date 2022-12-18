@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo;
+package com.hus.hush.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

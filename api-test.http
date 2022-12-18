@@ -1,27 +1,31 @@
+### rest api 테스트
+### vsc에 REST Client 플러그인을 확장하여 사용
+### 포스트맨과 같은 api 테스트 툴 없이도 손쉽게 검증 가능
+
 ### POST Todo 생성
-POST localhost:8080/api/todos
+POST http://localhost:8080/api/todos
 Content-Type: application/json
 
 {
-  "title": "숙제",
-  "description": "수학 숙제를 해야한다"
+  "title": "운동",
+  "description": "푸쉬업을 해야 한다."
 }
 
 
 ### GET Todo List 조회
-GET localhost:8080/api/todos
+GET  http://localhost:8080/api/todos
 
 
 ### PUT Todo 수정
-PUT localhost:8080/api/todos/1
+PUT  http://localhost:8080/api/todos/5
 Content-Type: application/json
 
 {
-  "title": "숙제",
-  "description": "숙제 끝났다!!",
+  "title": "운동",
+  "description": "푸쉬업 완료!",
   "done": true
 }
 
 
 ### DELETE Todo 삭제
-DELETE localhost:8080/api/todos/2
+DELETE  http://localhost:8080/api/todos/1

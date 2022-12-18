@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo.api.model;
+package com.hus.hush.todo.api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

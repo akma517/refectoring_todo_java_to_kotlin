@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo.service;
+package com.hus.hush.todo.service;
 
 import com.hus.hush.todo.domain.Todo;
 import com.hus.hush.todo.domain.TodoRepository;

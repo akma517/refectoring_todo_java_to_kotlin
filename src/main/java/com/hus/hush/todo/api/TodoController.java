@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo.api;
+package com.hus.hush.todo.api;
 
 import com.hus.hush.todo.api.model.TodoListResponse;
 import com.hus.hush.todo.api.model.TodoRequest;

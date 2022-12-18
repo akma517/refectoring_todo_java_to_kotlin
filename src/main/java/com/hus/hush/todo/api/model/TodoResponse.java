@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo.api.model;
+package com.hus.hush.todo.api.model;
 
 import com.hus.hush.todo.domain.Todo;
 import java.time.LocalDateTime;

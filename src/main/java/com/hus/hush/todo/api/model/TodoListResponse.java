@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo.api.model;
+package com.hus.hush.todo.api.model;
 
 import com.hus.hush.todo.domain.Todo;
 import java.util.List;
@@ -10,8 +10,8 @@ public class TodoListResponse {
 
     private final List<TodoResponse> items;
 
-    private TodoListResponse(List<TodoResponse> items) {
-        this.items = items;
+    private TodoListResponse(List<TodoResponse> todoListResponse) {
+        this.items = todoListResponse;
     }
 
     public int size() {

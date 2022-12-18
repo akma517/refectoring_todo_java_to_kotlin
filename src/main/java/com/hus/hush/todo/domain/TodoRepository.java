@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo.domain;
+package com.hus.hush.todo.domain;
 
 import java.util.List;
 import java.util.Optional;

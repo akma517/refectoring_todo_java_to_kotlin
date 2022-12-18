@@ -1,4 +1,4 @@
-package main.java.com.hus.hush.todo.domain;
+package com.hus.hush.todo.domain;
 
 import java.time.LocalDateTime;
 import javax.persistence.Column;
